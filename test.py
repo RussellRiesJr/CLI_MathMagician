@@ -19,3 +19,6 @@ class TestMathMagician(unittest.TestCase):
       primes = self.mathThing.generate_primes(6)
       self.assertEqual([2, 3, 5, 7, 11, 13], primes)
 
+
+if __name__ == '__main__':
+    unittest.main()
